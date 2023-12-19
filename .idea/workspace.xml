@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2a9bb303-6804-4f3e-9181-212500514f48" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SQL/Create_User_Table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mappland/Handler/Handler_Create_User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mappland/Handler/Handler_Verify_User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mappland/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mappland/ProException/JwtException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mappland/ProException/UserClassException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mappland/chat_class/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mappland/function/HttpResponseSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mappland/function/JDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mappland/function/JsonHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mappland/function/Jwt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mappland/function/Sha256.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/function/Response_Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_Jwt_Create.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_Jwt_key_generate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_Sha256.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_User_Verify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_User_create.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Kotlin Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="enabledProfiles">
+      <list>
+        <option value="myjdk" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2ZiXEpyuEc5fGA91xIt0bWCa7nh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/Project/Java_project/Java_Chat_Server_Edition/src/main/java/org/mappland/Main.java",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.Main.executor": "Run",
+    "应用程序.TestUserVerify.executor": "Run",
+    "应用程序.test_CreateJwt.executor": "Run",
+    "应用程序.test_CreateUserHandler.executor": "Run",
+    "应用程序.test_Sha256.executor": "Run",
+    "应用程序.test_User_Verify.executor": "Run",
+    "应用程序.test_User_create.executor": "Run",
+    "应用程序.test_User_verify.executor": "Run",
+    "应用程序.test_screte_key_create.executor": "Run"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.mappland.function" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.test_User_Verify">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.mappland.Main" />
+      <module name="Java_Chat_Server_Edition" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_Jwt_Create" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test_Jwt_Create" />
+      <module name="Java_Chat_Server_Edition" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_Jwt_key_generate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test_Jwt_key_generate" />
+      <module name="Java_Chat_Server_Edition" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_Sha256" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test_Sha256" />
+      <module name="Java_Chat_Server_Edition" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_User_Verify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test_User_Verify" />
+      <module name="Java_Chat_Server_Edition" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_User_create" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test_User_create" />
+      <module name="Java_Chat_Server_Edition" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.test_User_Verify" />
+        <item itemvalue="应用程序.test_Sha256" />
+        <item itemvalue="应用程序.test_User_create" />
+        <item itemvalue="应用程序.test_Jwt_Create" />
+        <item itemvalue="应用程序.test_Jwt_key_generate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-20.0.2-azul-20.0.2-3183f394aec4-4edb7f01" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="2a9bb303-6804-4f3e-9181-212500514f48" name="更改" comment="" />
+      <created>1702905767684</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702905767684</updated>
+      <workItem from="1702905768685" duration="837000" />
+      <workItem from="1702906772495" duration="4900000" />
+      <workItem from="1702968120518" duration="2654000" />
+      <workItem from="1702970860357" duration="852000" />
+      <workItem from="1703009688716" duration="16023000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
