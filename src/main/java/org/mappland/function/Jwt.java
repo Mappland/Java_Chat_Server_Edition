@@ -1,6 +1,6 @@
 package org.mappland.function;
 
-import org.mappland.Handler.Handler_Verify_User;
+import org.mappland.Main;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import io.jsonwebtoken.Jwts;
@@ -16,8 +16,7 @@ import org.mappland.ProException.JwtException;
 public class Jwt {
 
     private static final Logger logger = LoggerFactory.getLogger(Jwt.class);
-    private static final String SECRET_KEY = "2pSlaRClnVCFKK2t0TqWBAKfMGMvFYS34NkaxKZDxiZmCyrBCgpXfGFYoM" +
-            "fgHho/GeoUkwY7waNaQkpgEFp/Ew=="; // 替换为你的秘钥
+    private static final String SECRET_KEY = Main.config.jwt_key; // 替换为你的秘钥
 
     public static String Jwt_generate(String username) throws JwtException.CreateError {
         try {
