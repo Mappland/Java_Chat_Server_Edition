@@ -10,15 +10,17 @@ import org.slf4j.LoggerFactory;
 import com.sun.net.httpserver.HttpServer;
 
 import org.mappland.Handler.*;
+import org.mappland.function.Config;
 
 public class Main {
+    public static Config config = new Config();
     private static final Logger logger = LoggerFactory.getLogger(Main.class);
 
     public static void main(String[] args) throws IOException {
         logger.info("Server starting...");
 
         // 启动HTTP服务器
-        HttpServer httpServer = HttpServer.create(new InetSocketAddress(8080), 0);
+        HttpServer httpServer = HttpServer.create(new InetSocketAddress(config.user_port), 0);
         httpServer.createContext("/user_create", new Handler_Create_User());
         logger.info("Method " + "/user_create" + " load success");
         httpServer.createContext("/user_verify", new Handler_Verify_User());
@@ -30,7 +32,7 @@ public class Main {
         // 启动聊天服务器
         new Thread(() -> {
             try {
-                ServerSocket serverSocket = new ServerSocket(12345);
+                ServerSocket serverSocket = new ServerSocket(config.chat_port);
                 logger.info("Chat Server is running on port 12345...");
 
                 while (true) {
