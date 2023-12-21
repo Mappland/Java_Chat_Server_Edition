@@ -14,12 +14,6 @@ public class UserClassException extends Exception {
         }
     }
 
-    // PasswordError 异常
-    public static class PasswordError extends UserClassException {
-        public PasswordError(String message) {
-            super(message);
-        }
-    }
 
     // PasswordIllegal 异常
     public static class PasswordIllegal extends UserClassException {

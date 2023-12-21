@@ -42,7 +42,6 @@ public class User{
     }
 
 
-    // TODO 用户密码错误应抛出 UserClassException.PasswordError
     public boolean verify_user() throws JwtException, UserClassException.NotFound, SQLException {
         if (!JDBC.verify_user(this.user_name.toString(), this.user_password.toString()))
             return false;
