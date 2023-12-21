@@ -1,6 +1,0 @@
-Server:
-  Port:
-    User_Port: 8080
-    Chat_Port: 12345
-  KEY:
-    Jwt: "2pSlaRClnVCFKK2t0TqWBAKfMGMvFYS34NkaxKZDxiZmCyrBCgpXfGFYoMfgHho/GeoUkwY7waNaQkpgEFp/Ew=="
