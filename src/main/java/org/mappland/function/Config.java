@@ -21,21 +21,23 @@ public class Config {
 
             if (config.containsKey("Server")) {
                 Map<String, Object> serverMap = (Map<String, Object>) config.get("Server");
+                if (serverMap.containsKey("Port")) {
+                    Map<String, Object> map_port = (Map<String, Object>) serverMap.get("Port");
+                    if (map_port.containsKey("User_Port")) {
+                        this.user_port = (int) map_port.get("User_Port");
+                    }
+                    if (map_port.containsKey("Chat_Port")) {
+                        this.chat_port = (int) map_port.get("Chat_Port");
+                    }
+                }
+
                 if (serverMap.containsKey("KEY")) {
                     Map<String, Object> map_key = (Map<String, Object>) serverMap.get("KEY");
                     if (map_key.containsKey("Jwt")) {
                         this.jwt_key = (String) map_key.get("Jwt");
                     }
                 }
-                if (serverMap.containsKey("Port")) {
-                    Map<String, Object> map_key = (Map<String, Object>) serverMap.get("KEY");
-                    if (map_key.containsKey("User_Port")) {
-                        this.user_port = (int) map_key.get("User_Port");
-                    }
-                    if (map_key.containsKey("Chat_Port")) {
-                        this.chat_port = (int) map_key.get("Chat_Port");
-                    }
-                }
+
             }
             logger.info("配置文件读取成功");
         }catch (IOException e){

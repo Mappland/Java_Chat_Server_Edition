@@ -27,13 +27,13 @@ public class Main {
         logger.info("Method " + "/user_verify" + " load success");
         httpServer.setExecutor(null); // 创建默认执行器
         httpServer.start();
-        logger.info("HTTP Server started on port 8080");
+        logger.info("HTTP Server started on port " + config.user_port);
 
         // 启动聊天服务器
         new Thread(() -> {
             try {
                 ServerSocket serverSocket = new ServerSocket(config.chat_port);
-                logger.info("Chat Server is running on port 12345...");
+                logger.info("Chat Server is running on port " + config.chat_port);
 
                 while (true) {
                     Socket clientSocket = serverSocket.accept();

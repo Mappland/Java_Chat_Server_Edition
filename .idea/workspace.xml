@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a9bb303-6804-4f3e-9181-212500514f48" name="更改" comment="删除不必要的文件">
-      <change beforePath="$PROJECT_DIR$/config/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.yaml" afterDir="false" />
+    <list default="true" id="2a9bb303-6804-4f3e-9181-212500514f48" name="更改" comment="新增日志文件目录">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mappland/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mappland/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mappland/function/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mappland/function/Config.java" afterDir="false" />
     </list>
     <list id="5ebd04c2-7b28-4221-9b7e-13f8fdf794b7" name="还原搁置" comment="数据库日期格式更新" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,11 +102,12 @@
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "http.proxy",
     "vue.rearranger.settings.migration": "true",
-    "应用程序.Main.executor": "Run",
+    "应用程序.Main.executor": "Debug",
     "应用程序.TestUserVerify.executor": "Run",
     "应用程序.Test_Chat.executor": "Run",
     "应用程序.Test_Chat_2.executor": "Run",
     "应用程序.Test_Chat_3.executor": "Run",
+    "应用程序.test_Chat.executor": "Run",
     "应用程序.test_CreateJwt.executor": "Run",
     "应用程序.test_CreateUserHandler.executor": "Run",
     "应用程序.test_Sha256.executor": "Run",
@@ -437,7 +440,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703198948727</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="新增日志文件目录">
+      <option name="closed" value="true" />
+      <created>1703199080048</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1703199080048</updated>
+    </task>
+    <task id="LOCAL-00029" summary="新增日志文件目录">
+      <option name="closed" value="true" />
+      <created>1703199089532</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1703199089532</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,7 +486,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="主类实现" />
     <MESSAGE value="Jwt生成、验证、错误抛出实现" />
     <MESSAGE value="Jwt测试文件实现" />
     <MESSAGE value="User类实现及错误抛出定义" />
@@ -492,6 +510,18 @@
     <MESSAGE value="idea文件更新" />
     <MESSAGE value="新增LICENSE文件" />
     <MESSAGE value="删除不必要的文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除不必要的文件" />
+    <MESSAGE value="新增日志文件目录" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增日志文件目录" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/mappland/function/Config.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
