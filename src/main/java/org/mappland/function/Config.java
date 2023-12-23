@@ -13,6 +13,9 @@ public class Config {
     public String jwt_key;
     public int user_port;
     public int chat_port;
+    public String sql_url;
+    public String sql_user;
+    public String sql_password;
     public Config(){
         try{
             Yaml yaml = new Yaml();
@@ -20,6 +23,7 @@ public class Config {
             Map<String, Object> config = yaml.load(inputStream);
 
             if (config.containsKey("Server")) {
+
                 Map<String, Object> serverMap = (Map<String, Object>) config.get("Server");
                 if (serverMap.containsKey("Port")) {
                     Map<String, Object> map_port = (Map<String, Object>) serverMap.get("Port");
@@ -35,6 +39,19 @@ public class Config {
                     Map<String, Object> map_key = (Map<String, Object>) serverMap.get("KEY");
                     if (map_key.containsKey("Jwt")) {
                         this.jwt_key = (String) map_key.get("Jwt");
+                    }
+                }
+
+                if (serverMap.containsKey("SQL")) {
+                    Map<String, Object> map_sql = (Map<String, Object>) serverMap.get("SQL");
+                    if (map_sql.containsKey("URL")) {
+                        this.sql_url = (String) map_sql.get("URL");
+                    }
+                    if (map_sql.containsKey("User")) {
+                        this.sql_user = (String) map_sql.get("User");
+                    }
+                    if (map_sql.containsKey("Password")) {
+                        this.sql_password = (String) map_sql.get("Password");
                     }
                 }
 

@@ -4,3 +4,8 @@ Server:
     Chat_Port: 12345
   KEY:
     Jwt: "your keys"
+  SQL:
+      # URL 格式为 jdbc:mysql://主机名:端口号/数据库名。
+      URL: "jdbc:mysql://your_server:3306/your_database"
+      User: "username"
+      Password: "password"

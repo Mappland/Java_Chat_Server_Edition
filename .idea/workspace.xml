@@ -5,41 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a9bb303-6804-4f3e-9181-212500514f48" name="更改" comment="修正了换行格式">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/config_exa.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/config_exa.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SQL/Create_Group_Table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/SQL/Create_Group_Table.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SQL/Create_User_Table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/SQL/Create_User_Table.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SQL/User_In_Group.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/SQL/User_In_Group.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mappland/Handler/Handler_Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mappland/Handler/Handler_Chat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mappland/Handler/Handler_Create_User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mappland/Handler/Handler_Create_User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mappland/Handler/Handler_Verify_User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mappland/Handler/Handler_Verify_User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/mappland/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mappland/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mappland/ProException/JwtException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mappland/ProException/JwtException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mappland/ProException/UserClassException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mappland/ProException/UserClassException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mappland/chat_class/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mappland/chat_class/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/mappland/function/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mappland/function/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mappland/function/HttpResponseSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mappland/function/HttpResponseSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/mappland/function/JDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mappland/function/JDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mappland/function/JsonHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mappland/function/JsonHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mappland/function/Jwt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mappland/function/Jwt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mappland/function/Sha256.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mappland/function/Sha256.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/function/Response_Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/function/Response_Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test_Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_Chat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test_Chat_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_Chat_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test_Jwt_Create.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_Jwt_Create.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test_Jwt_key_generate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_Jwt_key_generate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test_Sha256.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_Sha256.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test_User_Verify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_User_Verify.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test_User_create.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_User_create.java" afterDir="false" />
     </list>
     <list id="5ebd04c2-7b28-4221-9b7e-13f8fdf794b7" name="还原搁置" comment="数据库日期格式更新" />
     <option name="SHOW_DIALOG" value="false" />
@@ -211,7 +181,7 @@
       <workItem from="1703210941158" duration="1095000" />
       <workItem from="1703354373637" duration="1014000" />
       <workItem from="1703356563811" duration="234000" />
-      <workItem from="1703356804278" duration="1756000" />
+      <workItem from="1703356804278" duration="2753000" />
     </task>
     <task id="LOCAL-00001" summary="Idea初始化文件">
       <option name="closed" value="true" />
@@ -461,7 +431,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703200067120</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="修正了换行格式">
+      <option name="closed" value="true" />
+      <created>1703358822702</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1703358822702</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

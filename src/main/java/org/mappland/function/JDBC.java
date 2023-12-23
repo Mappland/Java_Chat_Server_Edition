@@ -5,6 +5,7 @@ import java.sql.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import org.mappland.Main;
 import org.mappland.ProException.UserClassException;
 
 public class JDBC {
@@ -12,20 +13,18 @@ public class JDBC {
     /**
      * 数据库连接 URL。
      * URL 格式为 jdbc:mysql://主机名:端口号/数据库名。
-     * 在这个例子中，它连接到位于 mappland.top 上端口号为 3306 的 MySQL 数据库，
-     * 数据库名为 steel_inventory_system。
      */
-    private static final String URL = "jdbc:mysql://mappland.top:3306/chat";
+    private static final String URL = Main.config.sql_url;;
     /**
      * 数据库用户名。
      * 根据你的 MySQL 数据库设置，将其更改为相应的用户名。
      */
-    private static final String USER = "chat";
+    private static final String USER = Main.config.sql_user;
     /**
      * 数据库密码。
      * 根据你的 MySQL 数据库设置，将其更改为相应的密码。
      */
-    private static final String PASSWORD = "123456abc";
+    private static final String PASSWORD = Main.config.sql_password;
 
 
 
