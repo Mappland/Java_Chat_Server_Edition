@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a9bb303-6804-4f3e-9181-212500514f48" name="更改" comment="bug fixed">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2a9bb303-6804-4f3e-9181-212500514f48" name="更改" comment="jdbc驱动无法加载修复">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <list id="5ebd04c2-7b28-4221-9b7e-13f8fdf794b7" name="还原搁置" comment="数据库日期格式更新" />
     <option name="SHOW_DIALOG" value="false" />
@@ -177,7 +177,7 @@
       <workItem from="1703210941158" duration="1095000" />
       <workItem from="1703354373637" duration="1014000" />
       <workItem from="1703356563811" duration="234000" />
-      <workItem from="1703356804278" duration="4613000" />
+      <workItem from="1703356804278" duration="4917000" />
     </task>
     <task id="LOCAL-00001" summary="Idea初始化文件">
       <option name="closed" value="true" />
@@ -459,7 +459,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703360810714</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="jdbc驱动无法加载修复">
+      <option name="closed" value="true" />
+      <created>1703361479970</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1703361479970</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,7 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="处理用户创建请求" />
     <MESSAGE value="数据发送类" />
     <MESSAGE value="数据库操纵类" />
     <MESSAGE value="收到json请求处理类" />
@@ -514,6 +521,7 @@
     <MESSAGE value="修正了换行格式" />
     <MESSAGE value="在config.yaml配置文件中添加了数据库配置项" />
     <MESSAGE value="bug fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug fixed" />
+    <MESSAGE value="jdbc驱动无法加载修复" />
+    <option name="LAST_COMMIT_MESSAGE" value="jdbc驱动无法加载修复" />
   </component>
 </project>
