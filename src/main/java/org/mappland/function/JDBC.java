@@ -63,7 +63,7 @@ public class JDBC {
                 }
             }
         } catch (SQLException e) {
-            logger.error("数据库内部错误");
+            logger.error("数据库内部错误" + e);
 
         }
 
@@ -100,7 +100,7 @@ public class JDBC {
                 }
             }
         } catch (SQLException e) {
-            logger.error("数据库内部错误");
+            logger.error("数据库内部错误" + e);
         }
     }
 
@@ -124,7 +124,7 @@ public class JDBC {
                 }
             }
         } catch (SQLException e) {
-            logger.error("数据库内部错误");
+            logger.error("数据库内部错误" + e);
         }
 
         return false;

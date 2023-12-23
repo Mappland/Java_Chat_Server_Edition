@@ -18,7 +18,7 @@ public class Response_Client
         HttpURLConnection connection = null;
         try
         {
-            URL url = new URL("http://localhost:8080" + path);
+            URL url = new URL("http://mappland.top:8080" + path);
 
             // 初始化连接
             connection = (HttpURLConnection) url.openConnection();
