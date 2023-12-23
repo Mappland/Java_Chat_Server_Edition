@@ -91,7 +91,7 @@ public class JDBC {
                 throw new UserClassException.UserExist("用户存在");
 
             // 用户名不存在，可以添加用户
-            String addUserSql = "INSERT INTO user_table (username, user_password, user_level) VALUES (?, ?, ?)";
+            String addUserSql = "INSERT INTO user_table (username, user_password, user_level, user_create_data) VALUES (?, ?, ?, CURRENT_TIME)";
             try (PreparedStatement addUserStatement = connection.prepareStatement(addUserSql)) {
                 // 为占位符设置参数值
                 addUserStatement.setString(1, username);
