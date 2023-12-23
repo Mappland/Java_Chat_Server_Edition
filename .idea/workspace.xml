@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a9bb303-6804-4f3e-9181-212500514f48" name="更改" comment="修正了换行格式">
+    <list default="true" id="2a9bb303-6804-4f3e-9181-212500514f48" name="更改" comment="在config.yaml配置文件中添加了数据库配置项">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config_exa.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/config_exa.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/mappland/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mappland/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mappland/function/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mappland/function/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mappland/function/JDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mappland/function/JDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/function/Response_Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/function/Response_Client.java" afterDir="false" />
     </list>
     <list id="5ebd04c2-7b28-4221-9b7e-13f8fdf794b7" name="还原搁置" comment="数据库日期格式更新" />
     <option name="SHOW_DIALOG" value="false" />
@@ -181,7 +180,7 @@
       <workItem from="1703210941158" duration="1095000" />
       <workItem from="1703354373637" duration="1014000" />
       <workItem from="1703356563811" duration="234000" />
-      <workItem from="1703356804278" duration="2753000" />
+      <workItem from="1703356804278" duration="3665000" />
     </task>
     <task id="LOCAL-00001" summary="Idea初始化文件">
       <option name="closed" value="true" />
@@ -439,7 +438,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703358822702</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="在config.yaml配置文件中添加了数据库配置项">
+      <option name="closed" value="true" />
+      <created>1703359630385</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1703359630385</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +476,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="处理用户创建请求及登录请求" />
     <MESSAGE value="用户创建请求及登录请求测试类" />
     <MESSAGE value="处理用户创建请求" />
     <MESSAGE value="数据发送类" />
@@ -494,6 +500,7 @@
     <MESSAGE value="修复了配置文件无法读取端口的bug" />
     <MESSAGE value="同步了相关测试" />
     <MESSAGE value="修正了换行格式" />
-    <option name="LAST_COMMIT_MESSAGE" value="修正了换行格式" />
+    <MESSAGE value="在config.yaml配置文件中添加了数据库配置项" />
+    <option name="LAST_COMMIT_MESSAGE" value="在config.yaml配置文件中添加了数据库配置项" />
   </component>
 </project>

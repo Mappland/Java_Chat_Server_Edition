@@ -18,6 +18,9 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         logger.info("Server starting...");
+        logger.info(config.sql_url);
+        logger.info(config.sql_user);
+        logger.info(config.sql_password);
         // 启动HTTP服务器
         HttpServer httpServer = HttpServer.create(new InetSocketAddress(config.user_port), 0);
         httpServer.createContext("/user_create", new Handler_Create_User());
