@@ -26,7 +26,15 @@ public class JDBC {
      */
     private static final String PASSWORD = Main.config.sql_password;
 
-
+    // 静态块确保加载 JDBC 驱动
+    static {
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver"); // 根据您的 MySQL 连接器版本进行调整
+        } catch (ClassNotFoundException e) {
+            logger.error("无法加载 MySQL 驱动", e);
+            throw new RuntimeException("无法加载 MySQL 驱动", e);
+        }
+    }
 
     /**
      * 获取数据库连接。
