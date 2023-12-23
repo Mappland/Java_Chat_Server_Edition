@@ -82,7 +82,7 @@ public class Handler_Verify_User implements HttpHandler{
 
             } catch (UserClassException.NotFound e) {
                 JsonObject responseJson = new JsonObject();
-                responseJson.addProperty("code", 405);
+                responseJson.addProperty("code", 404);
                 responseJson.addProperty("message", username + " 不存在");
 
                 // 发送返回json文件

@@ -45,7 +45,7 @@ public class test_Chat {
             jsonRequest.addProperty("groupNumber", room_number);
             jsonRequest.addProperty("Jwt", jwt);
 
-            out.println(jsonRequest.toString());
+            out.println(jsonRequest);
 
             // 用户可以持续输入消息并发送
             while (true) {

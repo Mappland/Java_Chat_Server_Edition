@@ -10,7 +10,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class HttpResponseSender {
-    private static final Logger logger = LoggerFactory.getLogger(HttpResponseSender.class);
+    // 未引入logger
     public static void sendErrorResponse(HttpExchange exchange, String message, int statusCode) throws IOException {
         JsonObject responseJson = new JsonObject();
         responseJson.addProperty("code", statusCode);

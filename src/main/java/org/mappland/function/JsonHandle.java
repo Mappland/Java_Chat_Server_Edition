@@ -8,7 +8,6 @@ import java.nio.charset.StandardCharsets;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.sun.net.httpserver.HttpExchange;
-import org.jetbrains.annotations.NotNull;
 
 
 
@@ -18,7 +17,6 @@ public class JsonHandle {
      * @param exchange 需要处理的连接
      * @return: JsonObject 返回处理后的结果
      */
-    @NotNull
     public static JsonObject result_handle(HttpExchange exchange) throws IOException {
         InputStreamReader isr = new InputStreamReader(exchange.getRequestBody(), StandardCharsets.UTF_8);
         BufferedReader br = new BufferedReader(isr);

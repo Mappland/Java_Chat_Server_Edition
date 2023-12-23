@@ -10,7 +10,7 @@ public class test_User_create {
 
         JsonObject result = Response_Client.get_response("/user_create", "POST", jsonInputString);
         if (result != null) {
-            System.out.println(result.toString());
+            System.out.println(result);
         }
     }
 }

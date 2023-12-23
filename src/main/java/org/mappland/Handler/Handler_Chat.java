@@ -151,7 +151,7 @@ public class Handler_Chat extends Thread {
             logger.info("JWT验证失败: " + e.getMessage());
 
         } catch (Exception e) {
-            out.println("处理请求时出错: " + e.getMessage());
+            sendErrorResponse("处理请求时出错: " + e.getMessage(), "403");
             logger.error("服务器内部错误: " + e);
 
         }
@@ -226,6 +226,6 @@ public class Handler_Chat extends Thread {
         JsonObject jsonResponse = new JsonObject();
         jsonResponse.addProperty("message", message);
         jsonResponse.addProperty("code", code);
-        out.println(jsonResponse.toString());
+        out.println(jsonResponse);
     }
 }
