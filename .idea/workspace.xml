@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a9bb303-6804-4f3e-9181-212500514f48" name="更改" comment="新增日志文件目录">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SQL/Create_User_Table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/SQL/Create_User_Table.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mappland/function/JDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mappland/function/JDBC.java" afterDir="false" />
+    <list default="true" id="2a9bb303-6804-4f3e-9181-212500514f48" name="更改" comment="jdbc驱动无法加载修复">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <list id="5ebd04c2-7b28-4221-9b7e-13f8fdf794b7" name="还原搁置" comment="数据库日期格式更新" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,13 +67,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="enabledProfiles">
-      <list>
-        <option value="myjdk" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -88,13 +78,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.Java_Chat_Server_Edition [deploy].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Project/Java_project/Java_Chat_Server_Edition",
+    "last_opened_file_path": "/home/mappland/Project/Idea_project/Java_Chat_Server_Edition",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -106,12 +97,13 @@
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "vue.rearranger.settings.migration": "true",
-    "应用程序.Main.executor": "Debug",
+    "应用程序.Main.executor": "Run",
     "应用程序.TestUserVerify.executor": "Run",
     "应用程序.Test_Chat.executor": "Run",
     "应用程序.Test_Chat_2.executor": "Run",
     "应用程序.Test_Chat_3.executor": "Run",
     "应用程序.test_Chat.executor": "Run",
+    "应用程序.test_Chat_2.executor": "Run",
     "应用程序.test_CreateJwt.executor": "Run",
     "应用程序.test_CreateUserHandler.executor": "Run",
     "应用程序.test_Sha256.executor": "Run",
@@ -120,7 +112,6 @@
     "应用程序.test_User_verify.executor": "Run",
     "应用程序.test_screte_key_create.executor": "Run",
     "数据库脚本.Create_Group_Table.sql.executor": "Run",
-    "数据库脚本.Create_User_Table.sql.executor": "Run",
     "数据库脚本.User_In_Group.sql.executor": "Run"
   },
   "keyToStringList": {
@@ -138,61 +129,23 @@
       <recent name="org.mappland.function" />
     </key>
   </component>
-  <component name="RunManager" selected="数据库脚本.Create_User_Table.sql">
-    <configuration name="Main" type="Application" factoryName="Application">
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.mappland.Main" />
       <module name="Java_Chat_Server_Edition" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mappland.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_Chat_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test_Chat_2" />
-      <module name="Java_Chat_Server_Edition" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test_User_Verify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test_User_Verify" />
-      <module name="Java_Chat_Server_Edition" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Create_Group_Table.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="$PROJECT_DIR$/src/SQL/Create_Group_Table.sql" />
-      <script-mode>FILE</script-mode>
-      <data-source id="eb463941-8eea-4b18-b14b-8a53a65538db" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Create_User_Table.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="$PROJECT_DIR$/src/SQL/Create_User_Table.sql" />
-      <script-mode>FILE</script-mode>
-      <data-source id="eb463941-8eea-4b18-b14b-8a53a65538db" />
-      <method v="2" />
-    </configuration>
-    <configuration name="User_In_Group.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="$PROJECT_DIR$/src/SQL/User_In_Group.sql" />
-      <script-mode>FILE</script-mode>
-      <data-source id="eb463941-8eea-4b18-b14b-8a53a65538db" />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="应用程序.Main" />
-      <item itemvalue="应用程序.Test_Chat_2" />
-      <item itemvalue="应用程序.test_User_Verify" />
-      <item itemvalue="数据库脚本.Create_User_Table.sql" />
-      <item itemvalue="数据库脚本.Create_Group_Table.sql" />
-      <item itemvalue="数据库脚本.User_In_Group.sql" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="数据库脚本.Create_User_Table.sql" />
-        <item itemvalue="数据库脚本.Create_Group_Table.sql" />
-        <item itemvalue="数据库脚本.User_In_Group.sql" />
-        <item itemvalue="应用程序.test_User_Verify" />
-        <item itemvalue="应用程序.Test_Chat_2" />
+        <item itemvalue="应用程序.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +174,10 @@
       <workItem from="1703099326562" duration="7086000" />
       <workItem from="1703187438471" duration="785000" />
       <workItem from="1703188249810" duration="1688000" />
-      <workItem from="1703367281995" duration="1137000" />
+      <workItem from="1703210941158" duration="1095000" />
+      <workItem from="1703354373637" duration="1014000" />
+      <workItem from="1703356563811" duration="234000" />
+      <workItem from="1703356804278" duration="4917000" />
     </task>
     <task id="LOCAL-00001" summary="Idea初始化文件">
       <option name="closed" value="true" />
@@ -455,7 +411,63 @@
       <option name="project" value="LOCAL" />
       <updated>1703199089532</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="修复了配置文件无法读取端口的bug">
+      <option name="closed" value="true" />
+      <created>1703200051620</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1703200051620</updated>
+    </task>
+    <task id="LOCAL-00031" summary="同步了相关测试">
+      <option name="closed" value="true" />
+      <created>1703200067120</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1703200067120</updated>
+    </task>
+    <task id="LOCAL-00032" summary="修正了换行格式">
+      <option name="closed" value="true" />
+      <created>1703358822702</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1703358822702</updated>
+    </task>
+    <task id="LOCAL-00033" summary="在config.yaml配置文件中添加了数据库配置项">
+      <option name="closed" value="true" />
+      <created>1703359630385</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1703359630385</updated>
+    </task>
+    <task id="LOCAL-00034" summary="bug fixed">
+      <option name="closed" value="true" />
+      <created>1703360555815</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1703360555815</updated>
+    </task>
+    <task id="LOCAL-00035" summary="bug fixed">
+      <option name="closed" value="true" />
+      <created>1703360810714</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1703360810714</updated>
+    </task>
+    <task id="LOCAL-00036" summary="jdbc驱动无法加载修复">
+      <option name="closed" value="true" />
+      <created>1703361479970</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1703361479970</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -485,12 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Jwt生成、验证、错误抛出实现" />
-    <MESSAGE value="Jwt测试文件实现" />
-    <MESSAGE value="User类实现及错误抛出定义" />
-    <MESSAGE value="处理用户创建请求及登录请求" />
-    <MESSAGE value="用户创建请求及登录请求测试类" />
-    <MESSAGE value="处理用户创建请求" />
     <MESSAGE value="数据发送类" />
     <MESSAGE value="数据库操纵类" />
     <MESSAGE value="收到json请求处理类" />
@@ -510,17 +516,12 @@
     <MESSAGE value="新增LICENSE文件" />
     <MESSAGE value="删除不必要的文件" />
     <MESSAGE value="新增日志文件目录" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增日志文件目录" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/mappland/function/Config.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="修复了配置文件无法读取端口的bug" />
+    <MESSAGE value="同步了相关测试" />
+    <MESSAGE value="修正了换行格式" />
+    <MESSAGE value="在config.yaml配置文件中添加了数据库配置项" />
+    <MESSAGE value="bug fixed" />
+    <MESSAGE value="jdbc驱动无法加载修复" />
+    <option name="LAST_COMMIT_MESSAGE" value="jdbc驱动无法加载修复" />
   </component>
 </project>
