@@ -64,8 +64,8 @@ public class Handler_Create_User implements HttpHandler {
      * 如果用户创建成功，发送成功响应；如果发生错误，发送相应的错误响应。
      *
      * @param t HttpExchange 对象，用于发送响应。
-     * @param username 用户名。
-     * @param userPassword 用户密码。
+     * @param username String类 用户名。
+     * @param userPassword String类 用户密码。
      * @throws IOException 如果发送响应时发生 I/O 错误。
      */
     private void create_user(HttpExchange t, String username, String userPassword) throws IOException {
@@ -75,15 +75,15 @@ public class Handler_Create_User implements HttpHandler {
             logger.info("用户创建成功");
 
         } catch (UserClassException.PasswordIllegal e) {
-            HttpResponseSender.sendErrorResponse(t, "密码不合法", 400);
+            HttpResponseSender.sendErrorResponse(t, "密码不合法", 402);
             logger.info("密码不合法");
 
         } catch (UserClassException.UserExist e) {
-            HttpResponseSender.sendErrorResponse(t, "用户已存在", 400);
+            HttpResponseSender.sendErrorResponse(t, "用户已存在", 401);
             logger.info("用户已经存在");
 
         } catch (UserClassException e) {
-            HttpResponseSender.sendErrorResponse(t, "发生其他异常", 400);
+            HttpResponseSender.sendErrorResponse(t, "发生其他异常", 500);
             logger.error("UserClassException caught: ", e);
         }
     }

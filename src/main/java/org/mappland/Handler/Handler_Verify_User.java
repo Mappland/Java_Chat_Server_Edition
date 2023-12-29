@@ -54,30 +54,30 @@ public class Handler_Verify_User implements HttpHandler{
                else{
                    // 创建返回json文件
                    JsonObject responseJson = new JsonObject();
-                   responseJson.addProperty("code", 405);
+                   responseJson.addProperty("code", 401);
                    responseJson.addProperty("message", "密码错误");
 
                    // 发送返回json文件
-                   HttpResponseSender.sendJsonResponse(exchange, responseJson, 405);
+                   HttpResponseSender.sendJsonResponse(exchange, responseJson, 401);
                    logger.info(username + "密码错误");
                }
 
             } catch (JwtException.CreateError ex) {
                 JsonObject responseJson = new JsonObject();
-                responseJson.addProperty("code", 500);
+                responseJson.addProperty("code", 501);
                 responseJson.addProperty("message", username + " 的Jwt创建错误");
 
                 // 发送返回json文件
-                HttpResponseSender.sendJsonResponse(exchange, responseJson, 500);
+                HttpResponseSender.sendJsonResponse(exchange, responseJson, 501);
                 logger.error(username + " 的Jwt创建错误");
 
             } catch (JwtException e) {
                 JsonObject responseJson = new JsonObject();
-                responseJson.addProperty("code", 505);
+                responseJson.addProperty("code", 501);
                 responseJson.addProperty("message", username + " 的Jwt生成错误");
 
                 // 发送返回json文件
-                HttpResponseSender.sendJsonResponse(exchange, responseJson, 505);
+                HttpResponseSender.sendJsonResponse(exchange, responseJson, 501);
 
 
             } catch (UserClassException.NotFound e) {

@@ -74,8 +74,8 @@ public class test_Chat {
 
     public static void main(String[] args) {
         try {
-            test_Chat client = new test_Chat("localhost", 12345, "user_1", "room_1",
-                    "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyXzEiLCJpYXQiOjE3MDMxOTk4NzcsImV4cCI6MTcwMzIwMzQ3N30.Wmt4WWFTu-TzjpFMhbm0dxPwJDAyO8YFZe8Q0qZ5b_AqYmbQ6jzoXIh5NtKUGpM89sVdOiQe0eM1MV7os8sw4w");
+            test_Chat client = new test_Chat("mappland.top", 12345, "user_1", "room_1",
+                    "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyXzEiLCJpYXQiOjE3MDM0MDIxMTgsImV4cCI6MTcwMzQwNTcxOH0.Vn6zo4L1UoNQF7pVPxnfnLdkjWD7n21vAihOrY7S02ARFOxXoM0sjo_9vFoKQlUtaR5cpzGUbv_iI06buwL5eg");
         client.start();
         } catch (IOException e) {
             System.out.println("无法连接到服务器: " + e.getMessage());

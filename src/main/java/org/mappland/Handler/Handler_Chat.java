@@ -42,7 +42,6 @@ public class Handler_Chat extends Thread {
             }
         } catch (IOException e) {
             logger.error("Connection reset or other IOException: " + e.getMessage());
-            // 这里可以添加更详细的日志记录
         } finally {
             leaveCurrentGroup();
             try {
@@ -93,7 +92,7 @@ public class Handler_Chat extends Thread {
             String[] data = new String[] {
                     "member", username,
                     "message", message,
-                    "code", "205" // 注意：即使是数字，也要以字符串的形式表示
+                    "code", "205"
             };
             // 广播聊天消息
             broadcastMessage(data);
